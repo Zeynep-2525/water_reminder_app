@@ -3,6 +3,8 @@ import '../models/water_data.dart';
 import '../services/water_storage.dart';
 
 class WaterHomePage extends StatefulWidget {
+  const WaterHomePage({super.key});
+
   @override
   _WaterHomePageState createState() => _WaterHomePageState();
 }
